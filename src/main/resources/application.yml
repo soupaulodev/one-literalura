@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/literalura
+    username: docker
+    password: docker
+    driver-class-name: org.postgresql.Driver
+  hibernate:
+    dialect: org.hibernate.dialect.HSQLDialect
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    format-sql: true
